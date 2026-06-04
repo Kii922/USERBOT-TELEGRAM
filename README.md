@@ -1,11 +1,16 @@
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="120">
+
 # 🚀 Projek UBot
 
-![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-3.10+-blue?style=for-the-badge&logo=python)
-![Docker](https://img.shields.io/badge/docker-supported-2496ED?style=for-the-badge&logo=docker)
-![License](https://img.shields.io/badge/license-MIT-black?style=for-the-badge)
+### Telegram Userbot Promo System
 
----
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker)
+![Pyrogram](https://img.shields.io/badge/Pyrogram-MTProto-blue?style=for-the-badge&logo=telegram)
+
+</div>
 
 ## 🤖 Telegram Userbot Promo System
 
@@ -14,7 +19,7 @@ Dibangun menggunakan **Pyrogram (MTProto)** dengan sistem otomatisasi tinggi.
 
 ---
 
-## 🧑‍💻 Developer
+## 🧑‍💻 Contributors
 
 ![Dev](https://img.shields.io/badge/Developed%20by-kii922%20•%20devinai%20•%20chatgpt-7c3aed?style=for-the-badge)
 
@@ -163,10 +168,12 @@ projek_ubot/
 
 ---
 
-## 🧑‍💻 Developer Credit
+## 👨‍💻 Contributors
 
-![Credits](https://img.shields.io/badge/kii922%20•%20devinai%20•%20chatgpt-blueviolet?style=for-the-badge)
-
----
+| Developer | Role |
+|------------|--------|
+| @kii922 | Lead Developer |
+| @devinai | AI Engineer |
+| @chatgpt | Documentation & Development Assistant |
 
 
