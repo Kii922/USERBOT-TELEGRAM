@@ -1,0 +1,12 @@
+services:
+  promo-bot:
+    build: .
+    container_name: projek-ubot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    # Untuk login pertama kali (butuh input terminal)
+    stdin_open: true
+    tty: true
