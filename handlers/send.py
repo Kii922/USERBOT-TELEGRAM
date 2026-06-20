@@ -3,6 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from sender import send_to_groups
 from database import get_active_groups
+from auth import authorize
 
 logger = logging.getLogger(__name__)
 
@@ -11,6 +12,7 @@ def register_send_handlers(app: Client):
     """Register handlers untuk kirim pesan promosi."""
 
     @app.on_message(filters.command("send", prefixes="/") & filters.me)
+    @authorize()
     async def handle_send(client: Client, message: Message):
         """
         Kirim pesan ke semua grup target.
@@ -70,6 +72,7 @@ def register_send_handlers(app: Client):
         await status_msg.edit_text(result.summary())
 
     @app.on_message(filters.command("sendpreview", prefixes="/") & filters.me)
+    @authorize()
     async def handle_send_preview(client: Client, message: Message):
         """
         Preview pesan sebelum kirim ke semua grup.
