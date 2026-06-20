@@ -176,4 +176,51 @@ projek_ubot/
 | @devinai | AI Engineer |
 | @chatgpt | Documentation & Development Assistant |
 
+---
+
+## 🗺️ Roadmap Pengembangan
+
+![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
+![Progress](https://img.shields.io/badge/progress-ongoing-yellow?style=for-the-badge)
+![Focus](https://img.shields.io/badge/focus-automation-blue?style=for-the-badge)
+
+Project ini masih dalam taham pengembangan, maaf saja kalau masih ada beberapa bug/error.
+
+---
+
+## ✔ Phase 1 — Done
+
+![Done](https://img.shields.io/badge/phase%201-completed-brightgreen?style=for-the-badge)
+
+- ⏱ Auto Scheduler (kirim pesan sesuai waktu yang ditentukan)
+- 📤 Mass Sender Core (kirim ke banyak grup + anti flood handling)
+- 🧭 Group Manager (scan, add, remove, toggle grup target)
+- 🗃 Logging system (tracking aktivitas bot)
+
+---
+
+## ⚙ Phase 2 — In Progress
+
+![RBAC](https://img.shields.io/badge/system-RBAC-red?style=for-the-badge)
+![Security](https://img.shields.io/badge/security-permission%20layer-important?style=for-the-badge)
+
+### 🔐 Role-Based Access Control (RBAC)
+
+Sekarang lagi dibangun sistem permission biar bot gak bisa dipakai sembarangan orang.
+
+- 👑 **OWNER**
+  - Full access tanpa batas
+  - Bisa atur admin, config, dan semua fitur
+
+- 🛡 **ADMIN**
+  - Bisa pakai fitur utama (send, group management)
+  - Tidak bisa ubah sistem inti / owner
+
+- 👤 **USER (Whitelist)**
+  - Akses terbatas sesuai izin
+  - Hanya command tertentu yang di-allow
+
+- ⛔ **BLACKLIST**
+  - Semua command langsung ditolak
+  - Dipakai untuk spammer / abuse user
 
