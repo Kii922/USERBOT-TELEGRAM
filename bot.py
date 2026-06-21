@@ -7,6 +7,7 @@ from pyrogram import Client
 from config import API_ID, API_HASH, SESSION_NAME
 from database import init_db, get_active_schedules, update_schedule_sent
 from handlers import register_all_handlers
+from auth import set_owner_id
 from sender import send_to_groups
 
 # Set timezone ke Jakarta (UTC+7)
